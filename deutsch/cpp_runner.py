@@ -1,8 +1,5 @@
-from operator import sub
 import subprocess,os,glob
 import platform
-from tkinter import E
-from discord.ext.commands.errors import MissingPermissions
 platforms=platform.system()
 
 class MissingFile(Exception):
