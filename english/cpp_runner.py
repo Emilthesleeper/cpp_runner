@@ -51,7 +51,9 @@ if len(files)>=2:
     except Exception as e:
         subprocess.call("clear",shell=True)
         raise IncorrectIntArgument("This input is incorrect.")
-
+else:
+    files=files[0]
+        
 subprocess.call("clear",shell=True)
 
 while True:
