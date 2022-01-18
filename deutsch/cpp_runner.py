@@ -51,6 +51,8 @@ if len(files)>=2:
     except Exception as e:
         subprocess.call("clear",shell=True)
         raise IncorrectIntArgument("Bitte schreibe eine korrekte Angabe in das Feld.")
+else:
+    files=files[0]
 
 subprocess.call("clear",shell=True)
 
